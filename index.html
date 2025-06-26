@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CustomMark</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fdfdfd;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+    }
+    .authors {
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+    .abstract {
+      text-align: left;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      color: white;
+      background-color: #007BFF;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>CustomMark: Customization of Diffusion Models for Proactive Attribution</h1>
+    <div class="authors">Authors anonymised for review</div>
+    <div class="abstract">
+      <h2>Abstract</h2>
+      <p>
+Generative AI (GenAI) presents challenges in attributing synthesized content to its original training data, 
+particularly for artists whose styles are replicated by these models. We introduce CustomMark, a novel technique 
+for customizing pre-trained text-to-image GenAI models to enable attribution. With CustomMark, text prompts can 
+be modified to embed a watermark in generated images, linking them to training concepts such as an artist’s style, 
+specific objects, or the GenAI model itself. Our approach supports sequential customization, allowing new concepts 
+to be attributed efficiently and scalably without retraining from scratch. We demonstrate that CustomMark can robustly 
+watermark hundreds of individual concepts and support multiple attributions within a single image while preserving 
+high visual quality of the generation.
+</p>
+    </div>
+    <a href="supplementary.pdf" class="button" target="_blank">Supplementary Information</a>
+  </div>
+</body>
+</html>
